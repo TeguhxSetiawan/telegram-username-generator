@@ -1,5 +1,5 @@
 import { Bot } from "./deps.deno.ts";
-import { Telegraf, Markup } from 'https://cdn.skypack.dev/telegraf';
+import { Telegraf, Markup } from "https://jspm.dev/telegraf";
 import randomUsername from 'https://jspm.dev/random-username-generator';
 import clipboardy from 'https://jspm.dev/clipboardy';
 import { config } from 'https://jspm.dev/dotenv';
