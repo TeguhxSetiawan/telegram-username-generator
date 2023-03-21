@@ -4,6 +4,6 @@
         "random-username-generator": "https://jspm.dev/random-username-generator",
         "clipboardy": "https://jspm.dev/clipboardy",
         "dotenv": "https://jspm.dev/dotenv",
-        "telegraf": "https://cdn.skypack.dev/telegraf"
+        "telegraf": "https://jspm.dev/telegraf"
     }
   }
