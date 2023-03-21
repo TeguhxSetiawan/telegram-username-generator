@@ -1,8 +1,8 @@
 import { Bot } from "./deps.deno.ts";
-import { Telegraf, Markup } from "npm:telegraf";
-import randomUsername from 'npm:random-username-generator';
-import clipboardy from 'npm:clipboardy';
-import { config } from 'npm:dotenv';
+import { Telegraf, Markup } from 'https://cdn.skypack.dev/telegraf';
+import randomUsername from 'https://jspm.dev/random-username-generator';
+import clipboardy from 'https://jspm.dev/clipboardy';
+import { config } from 'https://jspm.dev/dotenv';
 // import express from "npm:express"
 config();
 export const bot = new Bot(Deno.env.get('BOT_TOKEN')) && new Telegraf(Deno.env.get('BOT_TOKEN'));
@@ -55,4 +55,4 @@ bot.action('generate', (ctx) => {
 });
 
 
-bot.launch();
+// bot.launch();
