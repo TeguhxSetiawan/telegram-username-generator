@@ -55,4 +55,4 @@ bot.action('generate', (ctx) => {
 });
 
 
-bot.start();
+// bot.start();
