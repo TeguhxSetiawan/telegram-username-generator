@@ -1,9 +1,8 @@
 {
     "imports": {
         
-        "random-username-generator": "https://jspm.dev/random-username-generator",
-        "clipboardy": "https://jspm.dev/clipboardy",
-        "dotenv": "https://jspm.dev/dotenv",
-        "telegraf": "https://jspm.dev/telegraf"
+        "unique-names-generator": "https://jspm.dev/unique-names-generator",
+        "dotenv": "https://deno.land/x/dotenv/load.ts",
+        "grammy": "https://deno.land/x/grammy@v1.8.3/mod.ts"
     }
   }
