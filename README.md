@@ -21,8 +21,8 @@ To use the bot, simply start a chat with it on Telegram by searching for https:/
 
 # Deployment
 
-- This bot is deployed on Deno Deploy
-- The method being used is Webhook (https://grammy.dev/guide/deployment-types.html) using Telegram's API
-- Fully created by Typescript, all dependencies are imported from available fully supported npm CDNs
+- This bot is deployed on Deno Deploy.
+- The method being used is Webhook (https://grammy.dev/guide/deployment-types.html) using Telegram's API.
+- Created by Typescript, all dependencies are imported from fully supported available npm CDNs.
 
 
