@@ -15,6 +15,6 @@ serve(async (req) => {
       }
     }
   } else {
-    return new Response("it works");
+    return new Response("It works!");
   }
 });
