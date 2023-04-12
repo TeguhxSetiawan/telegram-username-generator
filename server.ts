@@ -14,6 +14,7 @@ serve(async (req) => {
         console.error(err);
       }
     }
+  } else {
+    return new Response("it works");
   }
-  return new Response();
 });
