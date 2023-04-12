@@ -14,8 +14,6 @@ serve(async (req) => {
         console.error(err);
       }
     }
-  } else if (req.method == "GET" && req.url === "/") {
-    return new Response("It works!");
   }
   return new Response();
 });
